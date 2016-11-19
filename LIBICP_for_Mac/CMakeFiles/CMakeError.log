@@ -1,0 +1,410 @@
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/Ryo/Desktop/libicp (1)/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4b8cc/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_4b8cc.dir/build.make CMakeFiles/cmTC_4b8cc.dir/build
+Building C object CMakeFiles/cmTC_4b8cc.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -DOpenMP_FLAG_DETECTED -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -o CMakeFiles/cmTC_4b8cc.dir/src.c.o   -c "/Users/Ryo/Desktop/libicp (1)/CMakeFiles/CMakeTmp/src.c"
+/Users/Ryo/Desktop/libicp (1)/CMakeFiles/CMakeTmp/src.c:2:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_4b8cc.dir/src.c.o] Error 1
+make: *** [cmTC_4b8cc/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/Ryo/Desktop/libicp (1)/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8e5b6/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_8e5b6.dir/build.make CMakeFiles/cmTC_8e5b6.dir/build
+Building C object CMakeFiles/cmTC_8e5b6.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -DOpenMP_FLAG_DETECTED -fopenmp -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -o CMakeFiles/cmTC_8e5b6.dir/src.c.o   -c "/Users/Ryo/Desktop/libicp (1)/CMakeFiles/CMakeTmp/src.c"
+clang: error: unsupported option '-fopenmp'
+make[1]: *** [CMakeFiles/cmTC_8e5b6.dir/src.c.o] Error 1
+make: *** [cmTC_8e5b6/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/Ryo/Desktop/libicp (1)/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b64ac/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_b64ac.dir/build.make CMakeFiles/cmTC_b64ac.dir/build
+Building C object CMakeFiles/cmTC_b64ac.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -DOpenMP_FLAG_DETECTED /openmp -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -o CMakeFiles/cmTC_b64ac.dir/src.c.o   -c "/Users/Ryo/Desktop/libicp (1)/CMakeFiles/CMakeTmp/src.c"
+clang: error: no such file or directory: '/openmp'
+make[1]: *** [CMakeFiles/cmTC_b64ac.dir/src.c.o] Error 1
+make: *** [cmTC_b64ac/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/Ryo/Desktop/libicp (1)/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c9739/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_c9739.dir/build.make CMakeFiles/cmTC_c9739.dir/build
+Building C object CMakeFiles/cmTC_c9739.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -DOpenMP_FLAG_DETECTED -Qopenmp -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -o CMakeFiles/cmTC_c9739.dir/src.c.o   -c "/Users/Ryo/Desktop/libicp (1)/CMakeFiles/CMakeTmp/src.c"
+clang: error: unknown argument: '-Qopenmp'
+make[1]: *** [CMakeFiles/cmTC_c9739.dir/src.c.o] Error 1
+make: *** [cmTC_c9739/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/Ryo/Desktop/libicp (1)/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1128d/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_1128d.dir/build.make CMakeFiles/cmTC_1128d.dir/build
+Building C object CMakeFiles/cmTC_1128d.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -DOpenMP_FLAG_DETECTED -openmp -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -o CMakeFiles/cmTC_1128d.dir/src.c.o   -c "/Users/Ryo/Desktop/libicp (1)/CMakeFiles/CMakeTmp/src.c"
+/Users/Ryo/Desktop/libicp (1)/CMakeFiles/CMakeTmp/src.c:2:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_1128d.dir/src.c.o] Error 1
+make: *** [cmTC_1128d/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/Ryo/Desktop/libicp (1)/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b5be9/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_b5be9.dir/build.make CMakeFiles/cmTC_b5be9.dir/build
+Building C object CMakeFiles/cmTC_b5be9.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -DOpenMP_FLAG_DETECTED -xopenmp -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -o CMakeFiles/cmTC_b5be9.dir/src.c.o   -c "/Users/Ryo/Desktop/libicp (1)/CMakeFiles/CMakeTmp/src.c"
+clang: error: language not recognized: 'openmp'
+clang: warning: /Users/Ryo/Desktop/libicp (1)/CMakeFiles/CMakeTmp/src.c: 'linker' input unused
+make[1]: *** [CMakeFiles/cmTC_b5be9.dir/src.c.o] Error 1
+make: *** [cmTC_b5be9/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/Ryo/Desktop/libicp (1)/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_89fef/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_89fef.dir/build.make CMakeFiles/cmTC_89fef.dir/build
+Building C object CMakeFiles/cmTC_89fef.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -DOpenMP_FLAG_DETECTED +Oopenmp -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -o CMakeFiles/cmTC_89fef.dir/src.c.o   -c "/Users/Ryo/Desktop/libicp (1)/CMakeFiles/CMakeTmp/src.c"
+clang: error: no such file or directory: '+Oopenmp'
+make[1]: *** [CMakeFiles/cmTC_89fef.dir/src.c.o] Error 1
+make: *** [cmTC_89fef/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/Ryo/Desktop/libicp (1)/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d4873/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_d4873.dir/build.make CMakeFiles/cmTC_d4873.dir/build
+Building C object CMakeFiles/cmTC_d4873.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -DOpenMP_FLAG_DETECTED -qsmp -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -o CMakeFiles/cmTC_d4873.dir/src.c.o   -c "/Users/Ryo/Desktop/libicp (1)/CMakeFiles/CMakeTmp/src.c"
+clang: error: unknown argument: '-qsmp'
+make[1]: *** [CMakeFiles/cmTC_d4873.dir/src.c.o] Error 1
+make: *** [cmTC_d4873/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/Ryo/Desktop/libicp (1)/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_33186/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_33186.dir/build.make CMakeFiles/cmTC_33186.dir/build
+Building C object CMakeFiles/cmTC_33186.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -DOpenMP_FLAG_DETECTED -mp -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -o CMakeFiles/cmTC_33186.dir/src.c.o   -c "/Users/Ryo/Desktop/libicp (1)/CMakeFiles/CMakeTmp/src.c"
+clang: error: unknown argument: '-mp'
+make[1]: *** [CMakeFiles/cmTC_33186.dir/src.c.o] Error 1
+make: *** [cmTC_33186/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/Ryo/Desktop/libicp (1)/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_aaa4f/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_aaa4f.dir/build.make CMakeFiles/cmTC_aaa4f.dir/build
+Building CXX object CMakeFiles/cmTC_aaa4f.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -DOpenMP_FLAG_DETECTED -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -o CMakeFiles/cmTC_aaa4f.dir/src.cxx.o -c "/Users/Ryo/Desktop/libicp (1)/CMakeFiles/CMakeTmp/src.cxx"
+/Users/Ryo/Desktop/libicp (1)/CMakeFiles/CMakeTmp/src.cxx:2:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_aaa4f.dir/src.cxx.o] Error 1
+make: *** [cmTC_aaa4f/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/Ryo/Desktop/libicp (1)/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7e4d3/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_7e4d3.dir/build.make CMakeFiles/cmTC_7e4d3.dir/build
+Building CXX object CMakeFiles/cmTC_7e4d3.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -DOpenMP_FLAG_DETECTED -fopenmp -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -o CMakeFiles/cmTC_7e4d3.dir/src.cxx.o -c "/Users/Ryo/Desktop/libicp (1)/CMakeFiles/CMakeTmp/src.cxx"
+clang: error: unsupported option '-fopenmp'
+make[1]: *** [CMakeFiles/cmTC_7e4d3.dir/src.cxx.o] Error 1
+make: *** [cmTC_7e4d3/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/Ryo/Desktop/libicp (1)/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_17fc9/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_17fc9.dir/build.make CMakeFiles/cmTC_17fc9.dir/build
+Building CXX object CMakeFiles/cmTC_17fc9.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -DOpenMP_FLAG_DETECTED /openmp -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -o CMakeFiles/cmTC_17fc9.dir/src.cxx.o -c "/Users/Ryo/Desktop/libicp (1)/CMakeFiles/CMakeTmp/src.cxx"
+clang: error: no such file or directory: '/openmp'
+make[1]: *** [CMakeFiles/cmTC_17fc9.dir/src.cxx.o] Error 1
+make: *** [cmTC_17fc9/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/Ryo/Desktop/libicp (1)/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_cf3d1/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_cf3d1.dir/build.make CMakeFiles/cmTC_cf3d1.dir/build
+Building CXX object CMakeFiles/cmTC_cf3d1.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -DOpenMP_FLAG_DETECTED -Qopenmp -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -o CMakeFiles/cmTC_cf3d1.dir/src.cxx.o -c "/Users/Ryo/Desktop/libicp (1)/CMakeFiles/CMakeTmp/src.cxx"
+clang: error: unknown argument: '-Qopenmp'
+make[1]: *** [CMakeFiles/cmTC_cf3d1.dir/src.cxx.o] Error 1
+make: *** [cmTC_cf3d1/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/Ryo/Desktop/libicp (1)/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2e442/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_2e442.dir/build.make CMakeFiles/cmTC_2e442.dir/build
+Building CXX object CMakeFiles/cmTC_2e442.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -DOpenMP_FLAG_DETECTED -openmp -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -o CMakeFiles/cmTC_2e442.dir/src.cxx.o -c "/Users/Ryo/Desktop/libicp (1)/CMakeFiles/CMakeTmp/src.cxx"
+/Users/Ryo/Desktop/libicp (1)/CMakeFiles/CMakeTmp/src.cxx:2:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_2e442.dir/src.cxx.o] Error 1
+make: *** [cmTC_2e442/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/Ryo/Desktop/libicp (1)/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7947d/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_7947d.dir/build.make CMakeFiles/cmTC_7947d.dir/build
+Building CXX object CMakeFiles/cmTC_7947d.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -DOpenMP_FLAG_DETECTED -xopenmp -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -o CMakeFiles/cmTC_7947d.dir/src.cxx.o -c "/Users/Ryo/Desktop/libicp (1)/CMakeFiles/CMakeTmp/src.cxx"
+clang: error: language not recognized: 'openmp'
+clang: warning: /Users/Ryo/Desktop/libicp (1)/CMakeFiles/CMakeTmp/src.cxx: 'linker' input unused
+make[1]: *** [CMakeFiles/cmTC_7947d.dir/src.cxx.o] Error 1
+make: *** [cmTC_7947d/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/Ryo/Desktop/libicp (1)/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_71f1a/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_71f1a.dir/build.make CMakeFiles/cmTC_71f1a.dir/build
+Building CXX object CMakeFiles/cmTC_71f1a.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -DOpenMP_FLAG_DETECTED +Oopenmp -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -o CMakeFiles/cmTC_71f1a.dir/src.cxx.o -c "/Users/Ryo/Desktop/libicp (1)/CMakeFiles/CMakeTmp/src.cxx"
+clang: error: no such file or directory: '+Oopenmp'
+make[1]: *** [CMakeFiles/cmTC_71f1a.dir/src.cxx.o] Error 1
+make: *** [cmTC_71f1a/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/Ryo/Desktop/libicp (1)/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_eba16/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_eba16.dir/build.make CMakeFiles/cmTC_eba16.dir/build
+Building CXX object CMakeFiles/cmTC_eba16.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -DOpenMP_FLAG_DETECTED -qsmp -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -o CMakeFiles/cmTC_eba16.dir/src.cxx.o -c "/Users/Ryo/Desktop/libicp (1)/CMakeFiles/CMakeTmp/src.cxx"
+clang: error: unknown argument: '-qsmp'
+make[1]: *** [CMakeFiles/cmTC_eba16.dir/src.cxx.o] Error 1
+make: *** [cmTC_eba16/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/Ryo/Desktop/libicp (1)/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9a7a3/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_9a7a3.dir/build.make CMakeFiles/cmTC_9a7a3.dir/build
+Building CXX object CMakeFiles/cmTC_9a7a3.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -DOpenMP_FLAG_DETECTED -mp -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -o CMakeFiles/cmTC_9a7a3.dir/src.cxx.o -c "/Users/Ryo/Desktop/libicp (1)/CMakeFiles/CMakeTmp/src.cxx"
+clang: error: unknown argument: '-mp'
+make[1]: *** [CMakeFiles/cmTC_9a7a3.dir/src.cxx.o] Error 1
+make: *** [cmTC_9a7a3/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+

@@ -1,0 +1,331 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{FDF81C84-EC1D-360B-B185-4FB30A057D17}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>icp</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\peter\Desktop\LIBICP\Debug\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">icp.dir\Debug\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">icp</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\peter\Desktop\LIBICP\Release\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">icp.dir\Release\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">icp</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\peter\Desktop\LIBICP\MinSizeRel\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">icp.dir\MinSizeRel\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">icp</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\peter\Desktop\LIBICP\RelWithDebInfo\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">icp.dir\RelWithDebInfo\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">icp</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\peter\Desktop\LIBICP\src;C:\boost;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\peter\Desktop\LIBICP\src;C:\boost;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\peter\Desktop\LIBICP\src;C:\boost;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/peter/Desktop/LIBICP/Debug/icp.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/peter/Desktop/LIBICP/Debug/icp.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\peter\Desktop\LIBICP\src;C:\boost;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\peter\Desktop\LIBICP\src;C:\boost;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\peter\Desktop\LIBICP\src;C:\boost;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/peter/Desktop/LIBICP/Release/icp.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/peter/Desktop/LIBICP/Release/icp.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\peter\Desktop\LIBICP\src;C:\boost;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\peter\Desktop\LIBICP\src;C:\boost;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\peter\Desktop\LIBICP\src;C:\boost;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/peter/Desktop/LIBICP/MinSizeRel/icp.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/peter/Desktop/LIBICP/MinSizeRel/icp.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\peter\Desktop\LIBICP\src;C:\boost;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\peter\Desktop\LIBICP\src;C:\boost;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\peter\Desktop\LIBICP\src;C:\boost;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/peter/Desktop/LIBICP/RelWithDebInfo/icp.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/peter/Desktop/LIBICP/RelWithDebInfo/icp.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\peter\Desktop\LIBICP\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Users/peter/Desktop/LIBICP/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/Users/peter/Desktop/LIBICP -BC:/Users/peter/Desktop/LIBICP --check-stamp-file C:\Users\peter\Desktop\LIBICP\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/peter/Desktop/LIBICP/CMakeLists.txt;C:\Users\peter\Desktop\LIBICP\CMakeLists.txt;C:\Users\peter\Desktop\LIBICP\CMakeFiles\3.6.3\CMakeSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.6\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\peter\Desktop\LIBICP\CMakeFiles\3.6.3\CMakeCCompiler.cmake;C:\Users\peter\Desktop\LIBICP\CMakeFiles\3.6.3\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.6\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.6\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.6\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.6\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake\share\cmake-3.6\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.6\Modules\CMakeLanguageInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC.cmake;C:\Users\peter\Desktop\LIBICP\CMakeFiles\3.6.3\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.6\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.6\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.6\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.6\Modules\CMakeLanguageInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.6\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.6\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\peter\Desktop\LIBICP\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\peter\Desktop\LIBICP\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Users/peter/Desktop/LIBICP/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/Users/peter/Desktop/LIBICP -BC:/Users/peter/Desktop/LIBICP --check-stamp-file C:\Users\peter\Desktop\LIBICP\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/peter/Desktop/LIBICP/CMakeLists.txt;C:\Users\peter\Desktop\LIBICP\CMakeLists.txt;C:\Users\peter\Desktop\LIBICP\CMakeFiles\3.6.3\CMakeSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.6\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\peter\Desktop\LIBICP\CMakeFiles\3.6.3\CMakeCCompiler.cmake;C:\Users\peter\Desktop\LIBICP\CMakeFiles\3.6.3\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.6\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.6\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.6\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.6\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake\share\cmake-3.6\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.6\Modules\CMakeLanguageInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC.cmake;C:\Users\peter\Desktop\LIBICP\CMakeFiles\3.6.3\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.6\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.6\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.6\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.6\Modules\CMakeLanguageInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.6\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.6\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\peter\Desktop\LIBICP\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\peter\Desktop\LIBICP\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/Users/peter/Desktop/LIBICP/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/Users/peter/Desktop/LIBICP -BC:/Users/peter/Desktop/LIBICP --check-stamp-file C:\Users\peter\Desktop\LIBICP\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Users/peter/Desktop/LIBICP/CMakeLists.txt;C:\Users\peter\Desktop\LIBICP\CMakeLists.txt;C:\Users\peter\Desktop\LIBICP\CMakeFiles\3.6.3\CMakeSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.6\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\peter\Desktop\LIBICP\CMakeFiles\3.6.3\CMakeCCompiler.cmake;C:\Users\peter\Desktop\LIBICP\CMakeFiles\3.6.3\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.6\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.6\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.6\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.6\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake\share\cmake-3.6\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.6\Modules\CMakeLanguageInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC.cmake;C:\Users\peter\Desktop\LIBICP\CMakeFiles\3.6.3\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.6\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.6\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.6\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.6\Modules\CMakeLanguageInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.6\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.6\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\peter\Desktop\LIBICP\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\peter\Desktop\LIBICP\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Users/peter/Desktop/LIBICP/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/Users/peter/Desktop/LIBICP -BC:/Users/peter/Desktop/LIBICP --check-stamp-file C:\Users\peter\Desktop\LIBICP\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/peter/Desktop/LIBICP/CMakeLists.txt;C:\Users\peter\Desktop\LIBICP\CMakeLists.txt;C:\Users\peter\Desktop\LIBICP\CMakeFiles\3.6.3\CMakeSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.6\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\peter\Desktop\LIBICP\CMakeFiles\3.6.3\CMakeCCompiler.cmake;C:\Users\peter\Desktop\LIBICP\CMakeFiles\3.6.3\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.6\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.6\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.6\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.6\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake\share\cmake-3.6\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.6\Modules\CMakeLanguageInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC.cmake;C:\Users\peter\Desktop\LIBICP\CMakeFiles\3.6.3\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.6\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.6\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.6\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.6\Modules\CMakeLanguageInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.6\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.6\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\peter\Desktop\LIBICP\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\peter\Desktop\LIBICP\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\peter\Desktop\LIBICP\src\demo.cpp"  />
+    <ClCompile Include="C:\Users\peter\Desktop\LIBICP\src\icp.cpp"  />
+    <ClCompile Include="C:\Users\peter\Desktop\LIBICP\src\icpPointToPlane.cpp"  />
+    <ClCompile Include="C:\Users\peter\Desktop\LIBICP\src\icpPointToPoint.cpp"  />
+    <ClCompile Include="C:\Users\peter\Desktop\LIBICP\src\kdtree.cpp"  />
+    <ClCompile Include="C:\Users\peter\Desktop\LIBICP\src\matrix.cpp"  />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:/Users/peter/Desktop/LIBICP/ZERO_CHECK.vcxproj">
+      <Project>F78C6C50-3DC4-3EAD-B03A-6F2A413FCA0E</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

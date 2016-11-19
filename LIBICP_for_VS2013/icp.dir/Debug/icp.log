@@ -1,0 +1,16 @@
+﻿2016/11/20 0:03:41 にビルドを開始しました。
+     1>ノード 2 上のプロジェクト "C:\Users\peter\Desktop\LIBICP\icp.vcxproj" (Build ターゲット)。
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\peter\Desktop\LIBICP\Debug\icp.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/peter/Desktop/LIBICP/Debug/icp.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/peter/Desktop/LIBICP/Debug/icp.lib" /MACHINE:X86 /SAFESEH  /machine:X86 icp.dir\Debug\demo.obj
+         icp.dir\Debug\icp.obj
+         icp.dir\Debug\icpPointToPlane.obj
+         icp.dir\Debug\icpPointToPoint.obj
+         icp.dir\Debug\kdtree.obj
+         icp.dir\Debug\matrix.obj
+     1>kdtree.obj : error LNK2019: 未解決の外部シンボル "private: void __thiscall kdtree::KDTreeNode::check_query_in_bound(class kdtree::SearchRecord &)" (?check_query_in_bound@KDTreeNode@kdtree@@AAEXAAVSearchRecord@2@@Z) が関数 "private: void __thiscall kdtree::KDTreeNode::process_terminal_node(class kdtree::SearchRecord &)" (?process_terminal_node@KDTreeNode@kdtree@@AAEXAAVSearchRecord@2@@Z) で参照されました。
+     1>C:\Users\peter\Desktop\LIBICP\Debug\icp.exe : fatal error LNK1120: 1 件の未解決の外部参照
+     1>プロジェクト "C:\Users\peter\Desktop\LIBICP\icp.vcxproj" (Build ターゲット) のビルドが終了しました -- 失敗。
+
+ビルドに失敗しました。
+
+経過時間 00:00:00.28

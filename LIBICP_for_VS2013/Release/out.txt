@@ -1,0 +1,17 @@
+
+Creating model with 10000 points ...
+Creating template by shifting model by (1,1,1) ...
+
+Running ICP (point-to-plane, no outliers)
+
+Transformation results:
+R:
+   1.0000000    0.0000000    0.0000000 
+  -0.0000000    1.0000000   -0.0000000 
+  -0.0000000    0.0000000    1.0000000 
+
+t:
+   1.0000000 
+   1.0000000 
+   1.0000000 
+

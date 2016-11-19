@@ -1,0 +1,29 @@
+﻿2016/11/20 0:05:12 にビルドを開始しました。
+     1>ノード 2 上のプロジェクト "C:\Users\peter\Desktop\LIBICP\icp.vcxproj" (Rebuild ターゲット)。
+     1>CustomBuild:
+         Building Custom Rule C:/Users/peter/Desktop/LIBICP/CMakeLists.txt
+         CMake does not need to re-run because C:\Users\peter\Desktop\LIBICP\CMakeFiles\generate.stamp is up-to-date.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IC:\Users\peter\Desktop\LIBICP\src /IC:\boost /nologo /W3 /WX- /O2 /Ob2 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"icp.dir\Release\\" /Fd"icp.dir\Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt C:\Users\peter\Desktop\LIBICP\src\demo.cpp C:\Users\peter\Desktop\LIBICP\src\icp.cpp C:\Users\peter\Desktop\LIBICP\src\icpPointToPlane.cpp C:\Users\peter\Desktop\LIBICP\src\icpPointToPoint.cpp C:\Users\peter\Desktop\LIBICP\src\kdtree.cpp C:\Users\peter\Desktop\LIBICP\src\matrix.cpp
+         demo.cpp
+         icp.cpp
+         icpPointToPlane.cpp
+         icpPointToPoint.cpp
+         kdtree.cpp
+         matrix.cpp
+     1>C:\Users\peter\Desktop\LIBICP\src\matrix.cpp(821): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 'sprintf' の宣言を確認してください。
+         コードを生成中...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\peter\Desktop\LIBICP\Release\icp.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"C:/Users/peter/Desktop/LIBICP/Release/icp.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/peter/Desktop/LIBICP/Release/icp.lib" /MACHINE:X86 /SAFESEH  /machine:X86 icp.dir\Release\demo.obj
+         icp.dir\Release\icp.obj
+         icp.dir\Release\icpPointToPlane.obj
+         icp.dir\Release\icpPointToPoint.obj
+         icp.dir\Release\kdtree.obj
+         icp.dir\Release\matrix.obj
+         icp.vcxproj -> C:\Users\peter\Desktop\LIBICP\Release\icp.exe
+     1>プロジェクト "C:\Users\peter\Desktop\LIBICP\icp.vcxproj" (Rebuild ターゲット) のビルドが完了しました。
+
+ビルドに成功しました。
+
+経過時間 00:00:05.59
