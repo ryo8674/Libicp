@@ -6,5 +6,5 @@ CXX_FLAGS = -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Pl
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I"/Users/Ryo/Desktop/libicp (1)/src" -I/usr/local/include 
+CXX_INCLUDES = -I/Users/Ryo/Desktop/LIBICP/LIBICP_for_Mac/src -I/usr/local/include 
 
